@@ -1,4 +1,5 @@
 
+import { EditTaskForm } from "@/components/forms/tasks/edit-task-form"
 import {
   Table,
   TableBody,
@@ -13,6 +14,7 @@ export default function TaskPage() {
   return (
     <div className="flex flex-1 flex-col gap-4 p-4">
       <h1>Task Content</h1>
+      <EditTaskForm />
       <Table>
         <TableCaption>A list of your recent tasks.</TableCaption>
         <TableHeader>
